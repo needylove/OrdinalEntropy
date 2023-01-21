@@ -1,5 +1,5 @@
 # OrdinalEntropy
-The code of "Improving Deep Regression with Ordinal Entropy" in ICLR 2023. [PDF](https://openreview.net/forum?id=raU07GpP0P)
+The official code of "Improving Deep Regression with Ordinal Entropy" in ICLR 2023. [[PDF]](https://openreview.net/forum?id=raU07GpP0P).
 
 We currently provide a detailed code for experiments on the synthetic dataset, with a new visualization experiments for easy reproduction.
 
@@ -80,3 +80,7 @@ The ordinal entropy code for Age Estimation can be found here:
 - ./AgeEstimation/OrdinalEntropy.py
 
 The ordinal entropy can be added into the Age Estimation baselines in a similar way shown above.
+
+## Reference
+
+S. Zhang, L. Yang, M. Bi Mi, X. Zheng, A. Yao, "Improving Deep Regression with Ordinal Entropy," in ICLR, 2023. [[PDF]](https://openreview.net/forum?id=raU07GpP0P).
