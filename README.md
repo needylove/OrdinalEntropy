@@ -1,5 +1,5 @@
 # OrdinalEntropy
-The code of "Improving Deep Regression with Ordinal Entropy" in ICLR 2023.
+The code of "Improving Deep Regression with Ordinal Entropy" in ICLR 2023. [PDF](https://openreview.net/forum?id=raU07GpP0P)
 
 We currently provide a detailed code for experiments on the synthetic dataset, with a new visualization experiments for easy reproduction.
 
