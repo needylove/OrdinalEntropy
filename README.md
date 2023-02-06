@@ -3,7 +3,6 @@ The official code of "Improving Deep Regression with Ordinal Entropy" in ICLR 20
 
 We currently provide a detailed code for experiments on the synthetic dataset, with a new visualization experiments for easy reproduction.
 
-For the real-world tasks, we now only provide the code of the ordinal entropy regularizer, the trained models and some corresponding details will be provided later.
 ## Experiments on the synthetic dataset
 
 ### Obtain experiments results on the synthetic dataset
