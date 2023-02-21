@@ -18,11 +18,11 @@ We add a new visualization experiment with the synthetic dataset for easy reprod
 
 For the Linear task:
 - train.npy : the traning set 
-- test.npy: the test set
+- test.npy: the test set, please download it [here](https://drive.google.com/file/d/19gmrPb2PG8LTp_Lz5b7S0QGXdlEyVpNc/view?usp=sharing).
 
 For the non-linear task:
 - train_sde.npy : the traning set 
-- test_sde.npy: the test set, please download it [here](https://drive.google.com/file/d/19gmrPb2PG8LTp_Lz5b7S0QGXdlEyVpNc/view?usp=sharing).
+- test_sde.npy: the test set
 
 The dataset above is generated with this code: [DeepONet](https://github.com/lululxvi/deeponet). 
 
