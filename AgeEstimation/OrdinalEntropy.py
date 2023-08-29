@@ -45,9 +45,10 @@ def ordinalentropy(features, gt,  mask=None):
     _features_center = p[u_index, :]
     _features = _features - _features_center
     _features = _features.pow(2)
-    _tightness = torch.sum(_features, dim=1)
+    _tightness = torch.sum(_features, dim=0)
     _mask = _tightness > 0
     _tightness = _tightness[_mask]
+    _tightness = torch.sqrt(_tightness)
     _tightness = torch.mean(_tightness)
 
     return _tightness - _entropy
